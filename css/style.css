@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #f00f00;
     padding: 20px;
 }
 
@@ -21,6 +21,8 @@ header {
 
 header h1 {
     margin: 0;
+    font-size: 30px;
+    color: #800800;
 }
 
 nav ul {
@@ -67,6 +69,7 @@ section {
     height: 100px;
     object-fit: cover;
     margin-bottom: 10px;
+    border: 5px solid #555;
 }
 
 /* Contact Form */
