@@ -91,14 +91,14 @@ form input, form textarea, form button {
 }
 
 form button {
-    background-color: #333;
+    background-color: darkcyan;
     color: #fff;
     cursor: pointer;
     transition: background 0.3s ease;
 }
 
 form button:hover {
-    background-color: #555;
+    background-color: cyan;
 }
 
 footer {

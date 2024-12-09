@@ -1,3 +1,3 @@
 document.getElementById('alertButton').onclick = function () {
-    alert('Button clicked!');
+    alert('Clicking this button will activate some JavaScript to show you this message!');
 };
