@@ -40,6 +40,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+a.hover{
+    color: green;
+}
+
 /* Main Content */
 main {
     margin: 20px 0;
