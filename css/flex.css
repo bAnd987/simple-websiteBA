@@ -25,12 +25,13 @@ header{
 ul{
     width: 100%;
     display: flex;
-    height: 20vh;
+    flex-direction: column;
+    height: 100vh;
     max-height: 100px;
     background-color: red;
 }
 nav ul li{
-    width: 33.33%;
+    width: 100%;
     height: 100%;
 }
 nav ul li a{
@@ -44,4 +45,13 @@ nav ul li a{
 li a:hover{
     background-color: white;
     color: red;
+}
+
+@media (min-width: 768px){
+    ul{
+        flex-direction: row;
+    }
+    ul li{
+        width: 33.33%;
+    }
 }
